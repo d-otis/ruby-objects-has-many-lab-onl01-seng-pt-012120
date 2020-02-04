@@ -6,12 +6,15 @@ class Song
   
   @@all = []
   
+
+  
   def initialize(name)
     @name = name
     save
   end
   
-  def save
+  def saveexit!
+    
     @@all << self
   end
   
