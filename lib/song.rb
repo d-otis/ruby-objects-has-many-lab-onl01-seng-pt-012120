@@ -13,8 +13,7 @@ class Song
     save
   end
   
-  def saveexit!
-    
+  def save
     @@all << self
   end
   
